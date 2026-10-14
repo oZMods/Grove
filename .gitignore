@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Local diagnostics
+recovery/report.json
+mouse_hook_lab_results.json
+archive/mouse_hook_lab_results.json
+*.log
+
+# Client binaries and analysis databases
+*.exe
+*.dll
+*.pdb
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store

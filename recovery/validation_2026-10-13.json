@@ -1,0 +1,2856 @@
+{
+  "same_build": false,
+  "results": [
+    {
+      "name": "ClientState_getStatEffectiveLevel",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0xf5910"
+      ],
+      "resolved_reference_rvas": [
+        "0xe98c18"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0xf5915",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xe98c18"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "ClientState_getStatXP",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0xf5940"
+      ],
+      "resolved_reference_rvas": [
+        "0xe98c18"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0xf5945",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xe98c18"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "ClientState_getStatBaseLevel",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0xf5970"
+      ],
+      "resolved_reference_rvas": [
+        "0xe98c18"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0xf5975",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xe98c18"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "Inventory_GetItemId",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x30e20"
+      ],
+      "resolved_reference_rvas": [
+        "0x154faf0",
+        "0x154fae8"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0x30e20",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x154faf0"
+          ]
+        },
+        {
+          "instruction_rva": "0x30e37",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x154fae8"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "Inventory_GetQuantity",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x30e80"
+      ],
+      "resolved_reference_rvas": [
+        "0x154faf0",
+        "0x154fae8"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0x30e80",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x154faf0"
+          ]
+        },
+        {
+          "instruction_rva": "0x30e97",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x154fae8"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "Player_SetActionAnimation",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x71540"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    },
+    {
+      "name": "LocType_GetOrLoadById",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x5ed1d0"
+      ],
+      "resolved_reference_rvas": [
+        "0xd22a38",
+        "0xd22a30",
+        "0x2254108",
+        "0xd22a38",
+        "0xd72b10",
+        "0xd72b00",
+        "0xec3110"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0x5ed1da",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xd22a38"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed1ef",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xd22a30"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed20f",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x2254108"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed22a",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xd22a38"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed24f",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xd72b10"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed25e",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xd72b00"
+          ]
+        },
+        {
+          "instruction_rva": "0x5ed27f",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xec3110"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "SceneTile_FindLocType",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x6a2a70"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    },
+    {
+      "name": "Lua_RegisterLocTypeBindings",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0xf49c0"
+      ],
+      "resolved_reference_rvas": [
+        "0x154fdb1",
+        "0xb9c190",
+        "0x230500",
+        "0xb9c1b8",
+        "0x230640",
+        "0xb9c1a8",
+        "0x2306e0",
+        "0xb9c1d8",
+        "0x230800",
+        "0xb9c1c8",
+        "0x230770",
+        "0xb9c1f8",
+        "0x230a80"
+      ],
+      "status": "needs_analysis",
+      "reference_evidence": [
+        {
+          "instruction_rva": "0xf49de",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x154fdb1"
+          ]
+        },
+        {
+          "instruction_rva": "0xf49e5",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c190"
+          ]
+        },
+        {
+          "instruction_rva": "0xf49f5",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x230500"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a10",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c1b8"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a20",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x230640"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a3b",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c1a8"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a4b",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x2306e0"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a66",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c1d8"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a76",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x230800"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4a91",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c1c8"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4aa1",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x230770"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4abc",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0xb9c1f8"
+          ]
+        },
+        {
+          "instruction_rva": "0xf4acc",
+          "validated_encoding": true,
+          "resolved_rvas": [
+            "0x230a80"
+          ]
+        }
+      ],
+      "encoding_valid": true
+    },
+    {
+      "name": "Menu_BuildLocEntries",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x3837f0"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    },
+    {
+      "name": "Scene_ProjectWorldPoint",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x6aa5c0"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    },
+    {
+      "name": "LuaIfType_retrieveIfGroup",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x2283b0"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    },
+    {
+      "name": "MenuInput_ActivateOrderedFirstAction",
+      "match_count": 1,
+      "candidate_rvas": [
+        "0x380b50"
+      ],
+      "resolved_reference_rvas": [],
+      "status": "needs_analysis",
+      "reference_evidence": [],
+      "encoding_valid": true
+    }
+  ],
+  "schema": 1,
+  "binary": "C:\\Program Files (x86)\\Jagex Launcher\\Games\\Old School RuneScape\\Client\\osclient.exe",
+  "sha256": "a2636a0144b9fed75fefa5de7d1c56a24fe16dcf0222c7e82e9f8bf8f187843f",
+  "baseline_sha256": "166231c8f6bd05c7542b8f0d35eb64b0aad701a87ba6ba41f60c4706de946944",
+  "input_authorized": false,
+  "globals": [
+    {
+      "baseline_rva": "0xe98c18",
+      "candidates": [
+        "0xe98c18"
+      ],
+      "sources": [
+        {
+          "source": "ClientState_getStatEffectiveLevel",
+          "candidate_rva": "0xe98c18"
+        },
+        {
+          "source": "ClientState_getStatXP",
+          "candidate_rva": "0xe98c18"
+        },
+        {
+          "source": "ClientState_getStatBaseLevel",
+          "candidate_rva": "0xe98c18"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x154fac0",
+      "candidates": [
+        "0x154faf0"
+      ],
+      "sources": [
+        {
+          "source": "Inventory_GetItemId",
+          "candidate_rva": "0x154faf0"
+        },
+        {
+          "source": "Inventory_GetQuantity",
+          "candidate_rva": "0x154faf0"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x154fab8",
+      "candidates": [
+        "0x154fae8"
+      ],
+      "sources": [
+        {
+          "source": "Inventory_GetItemId",
+          "candidate_rva": "0x154fae8"
+        },
+        {
+          "source": "Inventory_GetQuantity",
+          "candidate_rva": "0x154fae8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xd22a38",
+      "candidates": [
+        "0xd22a38"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xd22a38"
+        },
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xd22a38"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xd22a30",
+      "candidates": [
+        "0xd22a30"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xd22a30"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x22540c8",
+      "candidates": [
+        "0x2254108"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0x2254108"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xd72b10",
+      "candidates": [
+        "0xd72b10"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xd72b10"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xd72b00",
+      "candidates": [
+        "0xd72b00"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xd72b00"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xec3110",
+      "candidates": [
+        "0xec3110"
+      ],
+      "sources": [
+        {
+          "source": "LocType_GetOrLoadById",
+          "candidate_rva": "0xec3110"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x154fda9",
+      "candidates": [
+        "0x154fdb1"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x154fdb1"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c1a0",
+      "candidates": [
+        "0xb9c190"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c190"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x230400",
+      "candidates": [
+        "0x230500"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x230500"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c1c8",
+      "candidates": [
+        "0xb9c1b8"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c1b8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x230540",
+      "candidates": [
+        "0x230640"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x230640"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c1b8",
+      "candidates": [
+        "0xb9c1a8"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c1a8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x2305e0",
+      "candidates": [
+        "0x2306e0"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x2306e0"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c1e8",
+      "candidates": [
+        "0xb9c1d8"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c1d8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x230700",
+      "candidates": [
+        "0x230800"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x230800"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c1d8",
+      "candidates": [
+        "0xb9c1c8"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c1c8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x230670",
+      "candidates": [
+        "0x230770"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x230770"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0xb9c208",
+      "candidates": [
+        "0xb9c1f8"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0xb9c1f8"
+        }
+      ],
+      "consistent": true
+    },
+    {
+      "baseline_rva": "0x230980",
+      "candidates": [
+        "0x230a80"
+      ],
+      "sources": [
+        {
+          "source": "Lua_RegisterLocTypeBindings",
+          "candidate_rva": "0x230a80"
+        }
+      ],
+      "consistent": true
+    }
+  ],
+  "rtti": [
+    {
+      "name": ".?AV<lambda_423e6dcbf185be4a742a19e16cf46415>@@",
+      "type_descriptor_rva": "0xe90d50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a23d2b12b228d5ec5b155c39a61e2f32>@@",
+      "type_descriptor_rva": "0xe90d90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e246c0cfcf9ecbc19acd421f101e1432>@@",
+      "type_descriptor_rva": "0xe90dd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_27a7e0e74cb0c9c43d9cffec694c97e0>@@",
+      "type_descriptor_rva": "0xe90e10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_19f50b52efd7118e2547b313ae0b9e71>@@",
+      "type_descriptor_rva": "0xe90e50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ce025c275cf43aa30318e7f502e08f37>@@",
+      "type_descriptor_rva": "0xe90e90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0f10202605d743dacfbdcc355e8d96a9>@@",
+      "type_descriptor_rva": "0xe90ed0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4220e568f88b1af4c1888661e84f7846>@@",
+      "type_descriptor_rva": "0xe90f10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_68931c361941cd0adcff66ae2920ecf4>@@",
+      "type_descriptor_rva": "0xe90f50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b84127a068d1f5eaf9ccf241d9bc47e0>@@",
+      "type_descriptor_rva": "0xe90f90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_de7d7ee09c6789246820b9b32e8f9968>@@",
+      "type_descriptor_rva": "0xe90fd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_703735c17ed447f501911291434eaadc>@@",
+      "type_descriptor_rva": "0xe91010",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d4610c39fec97fa5c08aa0bd5372776f>@@",
+      "type_descriptor_rva": "0xe91050",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_933270390aeb3ca0a03b46416f371ccc>@@",
+      "type_descriptor_rva": "0xe91090",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8b9746b4b9af5b0b3b89a7630cf64e22>@@",
+      "type_descriptor_rva": "0xe910d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a49c611f582a15cbdb7465dab19e7449>@@",
+      "type_descriptor_rva": "0xe91110",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7446b3bdf524e346c425eec59bce18ab>@@",
+      "type_descriptor_rva": "0xe91150",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bd920f76722e9b0c52c9624694cdc4a6>@@",
+      "type_descriptor_rva": "0xe91190",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6f7b0b7bc7cb5517e685dc86578e9b7a>@@",
+      "type_descriptor_rva": "0xe911d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0bab94f93a64765f5b8271fdebecee18>@@",
+      "type_descriptor_rva": "0xe91210",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2f7ff679d4967d1775ef5f306205c02f>@@",
+      "type_descriptor_rva": "0xe91250",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d467f5c9ed8831841576f0624644ff0d>@@",
+      "type_descriptor_rva": "0xe91290",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7e163850eaa00a25c1b5038a280ac7b0>@@",
+      "type_descriptor_rva": "0xe912d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_daf8057033cbd9f590286aed84227546>@@",
+      "type_descriptor_rva": "0xe91310",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_75bb2d46a2a44f83fcd03b9d3ea0aab3>@@",
+      "type_descriptor_rva": "0xe91350",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1913d93952fb326614fd09d0974974d8>@@",
+      "type_descriptor_rva": "0xe91390",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7da987065fa124eb8487957b5d3f9e65>@@",
+      "type_descriptor_rva": "0xe913d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9d4d9552f42759493301c458b5ec199b>@@",
+      "type_descriptor_rva": "0xe91410",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1312f7f9453c98711378c00ac43103fd>@@",
+      "type_descriptor_rva": "0xe91450",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2a254acecbf267294ac96ec80f565f62>@@",
+      "type_descriptor_rva": "0xe91490",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_212798cd395cc7d4c0f4af8c2a671ff2>@@",
+      "type_descriptor_rva": "0xe914d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_265005c112a1093f12f2f4430973f457>@@",
+      "type_descriptor_rva": "0xe91510",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e5d07bd2a5bc5cabf6127fc804f20787>@@",
+      "type_descriptor_rva": "0xe91550",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_00a527a23e897a052f870b2c255f74a8>@@",
+      "type_descriptor_rva": "0xe91590",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_32463deb519208473c4fc02b648ed835>@@",
+      "type_descriptor_rva": "0xe915d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c7daff4fe7afd8d2e6c7e7fcc86f5962>@@",
+      "type_descriptor_rva": "0xe91610",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1ecb73106d997a77468ab8e38a240e99>@@",
+      "type_descriptor_rva": "0xe91650",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ba3b50160c67da9ecf002af979c1c18f>@@",
+      "type_descriptor_rva": "0xe91690",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a89bed0306c75c5b975e0409b66484ca>@@",
+      "type_descriptor_rva": "0xe916d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_229de2dd203fae21eb54184eee8ad10e>@@",
+      "type_descriptor_rva": "0xe91710",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a6bda9afc6a6a6b16e847f01e2ad7c4f>@@",
+      "type_descriptor_rva": "0xe91750",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b3575a37ad38196ff78f78bcaa0c783f>@@",
+      "type_descriptor_rva": "0xe91790",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2c8a77393370acbb0b35954172a452a1>@@",
+      "type_descriptor_rva": "0xe917d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_02cb61c33a038248c869de7e3c3ad8ef>@@",
+      "type_descriptor_rva": "0xe91810",
+      "locators": []
+    },
+    {
+      "name": ".?AVfuture_error@std@@",
+      "type_descriptor_rva": "0xe91850",
+      "locators": []
+    },
+    {
+      "name": ".?AVexception@stdext@@",
+      "type_descriptor_rva": "0xe91878",
+      "locators": []
+    },
+    {
+      "name": ".?AVlogic_error@std@@",
+      "type_descriptor_rva": "0xe918a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_484a07d38f80af87dec6ea437832a85c>@@",
+      "type_descriptor_rva": "0xe918d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_16c6a4d61a87de8c06b62699adf66fc0>@@",
+      "type_descriptor_rva": "0xe91910",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a528f8c001531223fca2dec10202848d>@@",
+      "type_descriptor_rva": "0xe91950",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8Client@oldscape@jag@@EAAXXZAEAPEAV345@@std@@",
+      "type_descriptor_rva": "0xe91990",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8db9820756b0346f14ded5cefb8b87a3>@@",
+      "type_descriptor_rva": "0xe919f0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_200b517330c5e11b191d4919df53c812>@@",
+      "type_descriptor_rva": "0xe91a30",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P6AXAEAVOSClientConsole@oldscape@jag@@AEBV?$fixed_vector@VStringView@jag@@$03$00Vallocator@eastl@@@eastl@@@ZV?$reference_wrapper@VOSClientConsole@oldscape@jag@@@2@AEBU?$_Ph@$00@2@@std@@",
+      "type_descriptor_rva": "0xe91a70",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cb46a80510bfd0e17b3c7455b0faf0bd>@@",
+      "type_descriptor_rva": "0xe91b60",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f8b91cc142643b140cc510f186bd46c7>@@",
+      "type_descriptor_rva": "0xe91ba0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_31e65646907139eb22d2a69c4a559d85>@@",
+      "type_descriptor_rva": "0xe91be0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_63de98f6ceb74327820f148aebd4e1de>@@",
+      "type_descriptor_rva": "0xe91c20",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P6AXAEAVOSClientConsole@oldscape@jag@@@ZV?$reference_wrapper@VOSClientConsole@oldscape@jag@@@2@@std@@",
+      "type_descriptor_rva": "0xe91c60",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_60a6a5dcbbbd47a51fc85905f485bb3d>@@",
+      "type_descriptor_rva": "0xe91d00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_14f7a48de1c6d6e3a040a7c9c874dc00>@@",
+      "type_descriptor_rva": "0xe91d40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_019669e9238c396563939d6854e6645c>@@",
+      "type_descriptor_rva": "0xe91d80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6c630da73851f37d12cab9d67d2be327>@@",
+      "type_descriptor_rva": "0xe91dc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fb5b80bf8e087bac789f74b9c18d1a07>@@",
+      "type_descriptor_rva": "0xe91e00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a8152d52cde10fb3b96b086464c460ac>@@",
+      "type_descriptor_rva": "0xe91e40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ad0287e84842bb9db60f2c68358b89cd>@@",
+      "type_descriptor_rva": "0xe91e80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c36035df7b9f7d4ada873df4ecd583ef>@@",
+      "type_descriptor_rva": "0xe91ec0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_12f4f963368818ad528a921a1e275f8e>@@",
+      "type_descriptor_rva": "0xe91f00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_88189d62cc6d1744054cca0e01a74045>@@",
+      "type_descriptor_rva": "0xe91f40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_04cd396bf218d5d3465e2f3c4ba00bad>@@",
+      "type_descriptor_rva": "0xe91f80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f0173507162c30114022b182045f6e3b>@@",
+      "type_descriptor_rva": "0xe91fc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ee60103806638feafae4837c4cea7d42>@@",
+      "type_descriptor_rva": "0xe92000",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d4933bc301e39ce95846b6aa353d0d3b>@@",
+      "type_descriptor_rva": "0xe92040",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_752a38cb19fcde3b702dc76c0ad3f093>@@",
+      "type_descriptor_rva": "0xe92080",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bb6085fc725642e5e4d010916a1edc81>@@",
+      "type_descriptor_rva": "0xe920c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0da82b7b70e94f2616357c0c5b8810d7>@@",
+      "type_descriptor_rva": "0xe92100",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3f4977f54a5d44c0601a4dd0f60e830e>@@",
+      "type_descriptor_rva": "0xe92140",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fe059b14a7f22178d8a3b1416bd2e7d5>@@",
+      "type_descriptor_rva": "0xe92180",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_27d008bfc337ce425a86d6f069bee9a3>@@",
+      "type_descriptor_rva": "0xe921c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_376b24c5e988b10fac2112c611b6b1c6>@@",
+      "type_descriptor_rva": "0xe92200",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d3a46f68f915df8b87b19b52e2df2625>@@",
+      "type_descriptor_rva": "0xe92240",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c637874a2e647630a79ad980d79bd475>@@",
+      "type_descriptor_rva": "0xe92280",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4a0456eeb0e8c79883fcfb8979bc119b>@@",
+      "type_descriptor_rva": "0xe922c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c000802733b8c2f9fdfa1d2460525bc3>@@",
+      "type_descriptor_rva": "0xe92300",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ed8b4533c75dc6f619b9de54db861f25>@@",
+      "type_descriptor_rva": "0xe92340",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ea27439452e5a663b8d951ffeefdaa46>@@",
+      "type_descriptor_rva": "0xe92380",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2cdc36f9a43a432284c7efe41adb6689>@@",
+      "type_descriptor_rva": "0xe923c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a4249b1a4ce3ea28c6d911b3d22b1a49>@@",
+      "type_descriptor_rva": "0xe92400",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bf89b7f12c4271c7b733fe676131e486>@@",
+      "type_descriptor_rva": "0xe92440",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ecffb1f7e78491fa4584294e359bc548>@@",
+      "type_descriptor_rva": "0xe92480",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b8ecd7c586ab99d78a28383865f7684f>@@",
+      "type_descriptor_rva": "0xe924c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4b52a8921582f14a44171cba75a6b05a>@@",
+      "type_descriptor_rva": "0xe92500",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_76f195d1cc273853e8bc5662fa3da55c>@@",
+      "type_descriptor_rva": "0xe92540",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3008c6312e3e989965a5138f931001a3>@@",
+      "type_descriptor_rva": "0xe92580",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1a709e2c0c6052bc94eb7d773c8a4260>@@",
+      "type_descriptor_rva": "0xe925c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3c97b3d528817865ef71fe60c307dcfa>@@",
+      "type_descriptor_rva": "0xe92600",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fadec1b8a0572e5558019353d1615873>@@",
+      "type_descriptor_rva": "0xe92640",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f00773e0f28a83214143d035808ed1b3>@@",
+      "type_descriptor_rva": "0xe92680",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_64e8fe863e827a7ff13010fc0b5b5559>@@",
+      "type_descriptor_rva": "0xe926c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3687b32588cd7cc570fb46c21f62f905>@@",
+      "type_descriptor_rva": "0xe92700",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_310e742999646d18482104f8dfe9afc1>@@",
+      "type_descriptor_rva": "0xe92740",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2b9514b70a3d0d8fce8a619c5eb2b270>@@",
+      "type_descriptor_rva": "0xe92780",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d9698662280f0d8a92119d73d2a6964e>@@",
+      "type_descriptor_rva": "0xe927c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_625dbc66555f514bc20a398819563568>@@",
+      "type_descriptor_rva": "0xe92800",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7e88f94b48ae54d303d11378fcfe953c>@@",
+      "type_descriptor_rva": "0xe92840",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2a502a74002c007f80dba6856f571015>@@",
+      "type_descriptor_rva": "0xe92880",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7d50a417848e34c357d2f6efaa0f80f4>@@",
+      "type_descriptor_rva": "0xe928c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4921940152f75d7d07366b0f6c605e6c>@@",
+      "type_descriptor_rva": "0xe92900",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7bafc4bafa99be29dd61c90685b76b82>@@",
+      "type_descriptor_rva": "0xe92940",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_00acd0fa15bbcc26db9fb4a25bd2070a>@@",
+      "type_descriptor_rva": "0xe92980",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1bc5f217b9c47198f0c6d8f53b22c40a>@@",
+      "type_descriptor_rva": "0xe929c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4dae880d2bc42735b2db98b8c5f46692>@@",
+      "type_descriptor_rva": "0xe92a00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e3340fa14223f8a94218c33e6b6b93b6>@@",
+      "type_descriptor_rva": "0xe92a40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_45cf2c7b2caebd64ff764f7a7b15d0db>@@",
+      "type_descriptor_rva": "0xe92a80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_984f24cc87f180a8e82145dd225a3b8b>@@",
+      "type_descriptor_rva": "0xe92ac0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8ec6c9e0f69290a63f4f247fd8f11766>@@",
+      "type_descriptor_rva": "0xe92b00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6e2f150d16261509ab618788d19d5f63>@@",
+      "type_descriptor_rva": "0xe92b40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_032d3c92a2c8e46960c4505a7c80d7cc>@@",
+      "type_descriptor_rva": "0xe92b80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5e780250e05f6c3eb2f459a68add189a>@@",
+      "type_descriptor_rva": "0xe92bc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8158bf78ede63fe7c506dc95e65e3129>@@",
+      "type_descriptor_rva": "0xe92c00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8f921021a0c367e2fdd1c9c2f7c9b419>@@",
+      "type_descriptor_rva": "0xe92c40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_84bbe1de2e457583aa807dcbe118169c>@@",
+      "type_descriptor_rva": "0xe92c80",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P6AXXZ$$V@std@@",
+      "type_descriptor_rva": "0xe92cc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_259f4defa0138672f1c5358c3816d50d>@@",
+      "type_descriptor_rva": "0xe92d00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1d63d00e9ce8aafc5c8a9cfc9c8f41ef>@@",
+      "type_descriptor_rva": "0xe92d40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dbc303dbcd28c60353f9d56c98e2fb65>@@",
+      "type_descriptor_rva": "0xe92d80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5d1c4512984c0ad2c56e51ad32edfe59>@@",
+      "type_descriptor_rva": "0xe92dc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_663c1d3787c3764b7b3a7c3515c6ef66>@@",
+      "type_descriptor_rva": "0xe92e00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5eea3c500c4bdd7f8f4960f902701bd0>@@",
+      "type_descriptor_rva": "0xe92e40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7c520650e60b49b1c4f72fd99ecb65a9>@@",
+      "type_descriptor_rva": "0xe92e80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2a4a53832c419bac97aad4375eceae5f>@@",
+      "type_descriptor_rva": "0xe92ec0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_626290150d40859c179c0357c8823132>@@",
+      "type_descriptor_rva": "0xe92f00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_985a28bf956a74d3664d2bdfb0488d4c>@@",
+      "type_descriptor_rva": "0xe92f40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e785d7ce5eb0d179be40831128b2a616>@@",
+      "type_descriptor_rva": "0xe92f80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_470dc7c5150df4ad4be68f2840c9ca6e>@@",
+      "type_descriptor_rva": "0xe92fc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0c1d9f13ebad9cdf4f6af774ba4c4a6f>@@",
+      "type_descriptor_rva": "0xe93000",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3426d32657d791f6c6dbb5711a26627c>@@",
+      "type_descriptor_rva": "0xe93040",
+      "locators": []
+    },
+    {
+      "name": ".?AUStockMarketOfferComparator@Client@oldscape@jag@@",
+      "type_descriptor_rva": "0xe93080",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_216fda954ecd2554d7754613c4808008>@@",
+      "type_descriptor_rva": "0xe930d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ba23b2173ef914b1b7f2ef044d6f06b9>@@",
+      "type_descriptor_rva": "0xe93110",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cdbcaf5b5ed07be486bf10a7f2ad59d4>@@",
+      "type_descriptor_rva": "0xe93150",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8bf54a37b19b026cdb62317d3673ec72>@@",
+      "type_descriptor_rva": "0xe93190",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dd2416f6a6f2ffed26ac8530b088130f>@@",
+      "type_descriptor_rva": "0xe931d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3b86fa7af492ae7dfa8e25d5c279d90e>@@",
+      "type_descriptor_rva": "0xe93210",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b395b6157f29a64a5ad05996a0cb4782>@@",
+      "type_descriptor_rva": "0xe93250",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0eee6c315c9f9880a9fdb792f205f6c1>@@",
+      "type_descriptor_rva": "0xe93290",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2e3f90678a0a8c1f98819c82916d58a7>@@",
+      "type_descriptor_rva": "0xe932d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d1e754584b6c88fbdd1b69d91b40902b>@@",
+      "type_descriptor_rva": "0xe93310",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_61add37900f3ecbe923af466eb8300e0>@@",
+      "type_descriptor_rva": "0xe93350",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3ffbd61401b2bca9e6896f996feb9720>@@",
+      "type_descriptor_rva": "0xe93390",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d0aa5ad3bc303052a95311dcf159dfc6>@@",
+      "type_descriptor_rva": "0xe933d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d6cc91c2a7f656e853d35025d135cf9a>@@",
+      "type_descriptor_rva": "0xe93410",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_42c3f6ae41de0ed6fd631cb92d8dd733>@@",
+      "type_descriptor_rva": "0xe93450",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_eda7476cb205563de8598ad48e8da6c3>@@",
+      "type_descriptor_rva": "0xe93490",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4925e65feed6127d2ab6ac5c52f66a05>@@",
+      "type_descriptor_rva": "0xe934d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_df83d258720c3e0ed64cba014850b023>@@",
+      "type_descriptor_rva": "0xe93510",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_247e1c933cd25425a7b9d4bea3e2ee1e>@@",
+      "type_descriptor_rva": "0xe93550",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3c69d07bcf803ffd75d5b76779aefd75>@@",
+      "type_descriptor_rva": "0xe93590",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2bbb52467468a737f092ed24e2afc42b>@@",
+      "type_descriptor_rva": "0xe935d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bd94cbc717c0fd5be5fd24c3d522e57b>@@",
+      "type_descriptor_rva": "0xe93610",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_35add6f565823abcd81ac4bfae03f2d3>@@",
+      "type_descriptor_rva": "0xe93650",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f3ca54c282fdd69dd10125fc14b7c085>@@",
+      "type_descriptor_rva": "0xe93690",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_63af8d5bcaa8ff04acc89d3fd94ae1eb>@@",
+      "type_descriptor_rva": "0xe936d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_54033ccd9329b85f87f0cddfdf0c38ba>@@",
+      "type_descriptor_rva": "0xe93710",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c14f95f8eb0b1c37275eee9a8f97cc37>@@",
+      "type_descriptor_rva": "0xe93750",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5020b8c4d3176f282f7d92197dc03707>@@",
+      "type_descriptor_rva": "0xe93790",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_55aa3a643a5ada504f88700de46b1595>@@",
+      "type_descriptor_rva": "0xe937d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_95e93f08d6e1debf38418c1562c9d7cb>@@",
+      "type_descriptor_rva": "0xe93810",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fe42c48f51d91bce5c78766efdd605a3>@@",
+      "type_descriptor_rva": "0xe93850",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_44d8cc05461efdd1195318d334ccabe7>@@",
+      "type_descriptor_rva": "0xe93890",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1da4416edbd865dc37476f384fcea9a3>@@",
+      "type_descriptor_rva": "0xe938d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bd56c1dd2e437accb8f0a663d985b726>@@",
+      "type_descriptor_rva": "0xe93910",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_93316b30e5d32896bbf81e046b91a97a>@@",
+      "type_descriptor_rva": "0xe93950",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9d99c43a18f95e7a1ecac9c89eccdf05>@@",
+      "type_descriptor_rva": "0xe93990",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_049f562d4370e68df19895959e444f34>@@",
+      "type_descriptor_rva": "0xe939d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a4ec62391e942fd9eaba672b90a1be76>@@",
+      "type_descriptor_rva": "0xe93a10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c270335ba016cf816a27c24e22087444>@@",
+      "type_descriptor_rva": "0xe93a50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6cfb5985edf680539f89ded89c1dc725>@@",
+      "type_descriptor_rva": "0xe93a90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_01048c7f443a9d23fd9c063c97ac015d>@@",
+      "type_descriptor_rva": "0xe93ad0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_857edb093d057f58834d7334f272abdd>@@",
+      "type_descriptor_rva": "0xe93b10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c795392a6d3894fe5d2bfcb7a19ba8a0>@@",
+      "type_descriptor_rva": "0xe93b50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5f434a213af87bfa139bc2c5d8f54484>@@",
+      "type_descriptor_rva": "0xe93b90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4df83bda43e6c6a7a722ae715b966b04>@@",
+      "type_descriptor_rva": "0xe93bd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_888749cfff74ebe87fd416bcefc4717f>@@",
+      "type_descriptor_rva": "0xe93c10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_87abac9ea80128fce111e3bcb8e760bf>@@",
+      "type_descriptor_rva": "0xe93c50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_14b4852952964f36ad3ddf17a8907080>@@",
+      "type_descriptor_rva": "0xe93c90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_97837b641048a0a6a4145e6ecccdac91>@@",
+      "type_descriptor_rva": "0xe93cd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_129b05876b765cfe03f6d8fec2f7cc2a>@@",
+      "type_descriptor_rva": "0xe93d10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_01f44c7f84aa9c8842493c42949bef5f>@@",
+      "type_descriptor_rva": "0xe93d50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_91b50f0ee406dd06b9aaeec74c559424>@@",
+      "type_descriptor_rva": "0xe93d90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_428e19ce77dcfd8a883315b47713a5af>@@",
+      "type_descriptor_rva": "0xe93dd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cebd50b77133d5a19f909130766d4cc9>@@",
+      "type_descriptor_rva": "0xe93e10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_43c02742e7aad22ccc337ad6c5f82615>@@",
+      "type_descriptor_rva": "0xe93e50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1927e12ad7aed8d7fa8ce61f391c33ce>@@",
+      "type_descriptor_rva": "0xe93e90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b5b776cb6c514277fca16e6fb676d3dd>@@",
+      "type_descriptor_rva": "0xe93ed0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_41ae94f838aaa7f249aa5e3f4e431125>@@",
+      "type_descriptor_rva": "0xe93f10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_424f947875867c5f6c419c8753fd19b8>@@",
+      "type_descriptor_rva": "0xe93f50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f52583dac5f7424118e379987c0b737f>@@",
+      "type_descriptor_rva": "0xe93f90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_31d206a832ff653db010316c0569e6d7>@@",
+      "type_descriptor_rva": "0xe93fd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_00a9a9fd24d91a67dee0fcd1dbc87e33>@@",
+      "type_descriptor_rva": "0xe94010",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f83f26135b445890a4b6bf05b8f8e30c>@@",
+      "type_descriptor_rva": "0xe94050",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_88e7586fa289d3e53e993360ffa49fb4>@@",
+      "type_descriptor_rva": "0xe94090",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_423bbf76976cf54057f82522b9221070>@@",
+      "type_descriptor_rva": "0xe940d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bc8f9e069b35e281d9979739a0ad97b4>@@",
+      "type_descriptor_rva": "0xe94110",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8a32690f509fa70930f33c3b195cbdf2>@@",
+      "type_descriptor_rva": "0xe94150",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7e22340f829327daff7b830b52c980b9>@@",
+      "type_descriptor_rva": "0xe94190",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c630d06ac69eaaeb423154a68e899b6a>@@",
+      "type_descriptor_rva": "0xe941d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f57dcad22af32aa38e57d005c1814062>@@",
+      "type_descriptor_rva": "0xe94210",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_afd7cb7898781ce83bf277f112296474>@@",
+      "type_descriptor_rva": "0xe94250",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_71e3b876d59b80d22eeabb7538da2b09>@@",
+      "type_descriptor_rva": "0xe94290",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4e348ed739bfbfbadec5f8801d31a8ad>@@",
+      "type_descriptor_rva": "0xe942d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4d9eebe6bc7b88faa3e700a899fb76ae>@@",
+      "type_descriptor_rva": "0xe94310",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_08a024f326ba5216926c12705a2a4e88>@@",
+      "type_descriptor_rva": "0xe94350",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_89eb148ad580d5fc906a7d5d6cf528e9>@@",
+      "type_descriptor_rva": "0xe94390",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1402cf88db47359c0604f8b85e0dbb75>@@",
+      "type_descriptor_rva": "0xe943d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_68f6e1abbb5f8bba012fc9a7ff037b74>@@",
+      "type_descriptor_rva": "0xe94410",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_671408e8aac2f2430ca468aa2ba16490>@@",
+      "type_descriptor_rva": "0xe94450",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8fd157401caef89a5c1545d1423fde94>@@",
+      "type_descriptor_rva": "0xe94490",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_54d06eedadde95e466235f725142e043>@@",
+      "type_descriptor_rva": "0xe944d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_46898317175ab0a52b554dc0ecf9f423>@@",
+      "type_descriptor_rva": "0xe94510",
+      "locators": []
+    },
+    {
+      "name": ".?AUnoop_deleter@socket_ops@detail@asio@@",
+      "type_descriptor_rva": "0xe94550",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_74c92fb2de5416b39c22fe2349e2394c>@@",
+      "type_descriptor_rva": "0xe94590",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1265f3c61ff6f87d695e40e4cb1842a9>@@",
+      "type_descriptor_rva": "0xe945d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ba5599604d6dcdb1d9a61d0ca3615823>@@",
+      "type_descriptor_rva": "0xe94610",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_59057ccedd2439413c8bdbc33c4c1a16>@@",
+      "type_descriptor_rva": "0xe94650",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_90b98bccee923e0d7fdcbf427bd3782d>@@",
+      "type_descriptor_rva": "0xe94690",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0af2abf31712d101851bf9ba8b0c45fd>@@",
+      "type_descriptor_rva": "0xe946d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cadef5723db21714e34402ce5af2c82f>@@",
+      "type_descriptor_rva": "0xe94710",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_eebe81b116e344723d7c9f7072c230db>@@",
+      "type_descriptor_rva": "0xe94750",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c0f7524cdd0bda2b46b59fb608e5750d>@@",
+      "type_descriptor_rva": "0xe94790",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ccfdb7f57ca925c4f9ddcdaec6cd3433>@@",
+      "type_descriptor_rva": "0xe947d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_21ab0c51862095948db4198300ea4978>@@",
+      "type_descriptor_rva": "0xe94810",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c895bf4ca16c5be28f545501670164dd>@@",
+      "type_descriptor_rva": "0xe94850",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_37ce1ce79bbcde2451fd2e0d5f00c016>@@",
+      "type_descriptor_rva": "0xe94890",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_60967ec7def387e1ae6b218dfd013a39>@@",
+      "type_descriptor_rva": "0xe948d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_94f56b47bbf11fa8bb1cd854e1c895e9>@@",
+      "type_descriptor_rva": "0xe94910",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_42efb5d5d83c3faeb36ca56b0344e22c>@@",
+      "type_descriptor_rva": "0xe94950",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_aa8ce84875c50e43dc43a6da2a42a3f3>@@",
+      "type_descriptor_rva": "0xe94990",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8bf2591a82e65e0ed8c5d99a4dfc3b97>@@",
+      "type_descriptor_rva": "0xe949d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1d783afab22fa027826b9ba2110f6b59>@@",
+      "type_descriptor_rva": "0xe94a10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2e3b883c05acfdb0ae8e0d59a7a11485>@@",
+      "type_descriptor_rva": "0xe94a50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_763c45fea2e27652aa8c7cd820c16fc7>@@",
+      "type_descriptor_rva": "0xe94a90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7cb12ad79e2712c132b8a504e991e01c>@@",
+      "type_descriptor_rva": "0xe94ad0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ba1694339feb835b1f84fa4359432d7a>@@",
+      "type_descriptor_rva": "0xe94b10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b07e0b6ecfaf8e7565470dd69f5dec16>@@",
+      "type_descriptor_rva": "0xe94b50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d487465b97b296579469d7a1dc5227c3>@@",
+      "type_descriptor_rva": "0xe94b90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_92915865f637c14787efd3025f8a1fd7>@@",
+      "type_descriptor_rva": "0xe94bd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_27890cdcebbbe52226fb22a6e1e07e5d>@@",
+      "type_descriptor_rva": "0xe94c10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e6632d5caf2fab500b474c73a6f25e8b>@@",
+      "type_descriptor_rva": "0xe94c50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3cc2cda31ea544555ec6ea31d9158c25>@@",
+      "type_descriptor_rva": "0xe94c90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_38003e25b697cfc18244673f43c47594>@@",
+      "type_descriptor_rva": "0xe94cd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fe7d32d2d691ad8be6395d15210cd6ac>@@",
+      "type_descriptor_rva": "0xe94d10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7966b434e96fd6404e6ee4f338670666>@@",
+      "type_descriptor_rva": "0xe94d50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_668c949e62810d6bfda4d4af89518883>@@",
+      "type_descriptor_rva": "0xe94d90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a27ae96e8053869394e1fbdbe424609d>@@",
+      "type_descriptor_rva": "0xe94dd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6d5c05f38bc2cdf939b3fa6690f36e4b>@@",
+      "type_descriptor_rva": "0xe94e10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_025887037170fedcb216e38ef5e0a3c3>@@",
+      "type_descriptor_rva": "0xe94e50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_afbd9328a1fe9077b7db4e899e6fe92f>@@",
+      "type_descriptor_rva": "0xe94e90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_28761b78039000b9c0c36879372e9b55>@@",
+      "type_descriptor_rva": "0xe94ed0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dc7aaa766819a05a87bcddbb0c543deb>@@",
+      "type_descriptor_rva": "0xe94f10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_297c1c1dcff457100f531ef84c4d9518>@@",
+      "type_descriptor_rva": "0xe94f50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c86b200f16ca2466bac3643cfffd0be9>@@",
+      "type_descriptor_rva": "0xe94f90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_43f8f25e7aa839e9a14586d37d4ef5e4>@@",
+      "type_descriptor_rva": "0xe94fd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_52156d3cd8f6e4cbfcc44fc07a12b6ab>@@",
+      "type_descriptor_rva": "0xe95010",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f4b3dd45b7133684aff139197fa25d10>@@",
+      "type_descriptor_rva": "0xe95050",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8316bb58ca48f415407ec9b3061a7513>@@",
+      "type_descriptor_rva": "0xe95090",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2c57413ba81b016ac72fcf51845d0468>@@",
+      "type_descriptor_rva": "0xe950d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_2f8d2263e946b60336038bbb8bb2bf87>@@",
+      "type_descriptor_rva": "0xe95110",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f7a3cb452e9fd1fe270441853109319d>@@",
+      "type_descriptor_rva": "0xe95150",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6a41aadf95bdd655c5c4141542ad2d72>@@",
+      "type_descriptor_rva": "0xe95190",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bc95ddd99250edb5f08d7f9697d2af39>@@",
+      "type_descriptor_rva": "0xe951d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_23638ace91f456f1fe0e820da04fcd95>@@",
+      "type_descriptor_rva": "0xe95210",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_34020b04fe1ac5bfb82fda963dfcb910>@@",
+      "type_descriptor_rva": "0xe95250",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3760852384aedd8b9568954b1bb4cb4d>@@",
+      "type_descriptor_rva": "0xe95290",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b7c8646420370c47130c7dcd087cd4c4>@@",
+      "type_descriptor_rva": "0xe952d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5febfd4a50e691b8823071f44968318d>@@",
+      "type_descriptor_rva": "0xe95310",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b38fa02b5f3d7193a64422c7ed49f213>@@",
+      "type_descriptor_rva": "0xe95350",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9601e63cac36fe6e1c576d6e65a22b54>@@",
+      "type_descriptor_rva": "0xe95390",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c8884fb4dce2692c003663977247428b>@@",
+      "type_descriptor_rva": "0xe953d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5716751be51fca00b22a781128cd8778>@@",
+      "type_descriptor_rva": "0xe95410",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0d11b1443c5e3b3bd930ea783b609042>@@",
+      "type_descriptor_rva": "0xe95450",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1965bb7210ca65b0418d21873e17cbea>@@",
+      "type_descriptor_rva": "0xe95490",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_79f87bbc169d2232a206f3473c5959a1>@@",
+      "type_descriptor_rva": "0xe954d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8f90c0e14821a2df4ed6167f763e0e48>@@",
+      "type_descriptor_rva": "0xe95510",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_88834e0f42ba8de5e8898103e06ae8e2>@@",
+      "type_descriptor_rva": "0xe95550",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c5e6543394c4efd14e0eac71fdfabedf>@@",
+      "type_descriptor_rva": "0xe95590",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1b933bd662420ea14453f8a0374036b4>@@",
+      "type_descriptor_rva": "0xe955d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_21d243da2822eb6dd9fedec70ba38898>@@",
+      "type_descriptor_rva": "0xe95610",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_86af590a61338744a80fae81fdc8af83>@@",
+      "type_descriptor_rva": "0xe95650",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b4cb734fb4f70d0ea33ec03c726c7527>@@",
+      "type_descriptor_rva": "0xe95690",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_01196cc71b494a7d88bd349b893dfc55>@@",
+      "type_descriptor_rva": "0xe956d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ff65653228dd52633dbee70c1b33e114>@@",
+      "type_descriptor_rva": "0xe95710",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e3bc2b27b1ab44107086f29a53843816>@@",
+      "type_descriptor_rva": "0xe95750",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3301e55b4ca6a0a70366b5f13edbe890>@@",
+      "type_descriptor_rva": "0xe95800",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f82a9cb9231e041232effe36aff96d72>@@",
+      "type_descriptor_rva": "0xe95840",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e69def17c5f77f42247f67a4d73ae23a>@@",
+      "type_descriptor_rva": "0xe95880",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bb251af6da24308e1a4bb11d2c266c5a>@@",
+      "type_descriptor_rva": "0xe958c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_037b9298d8f7febda5b25e4412091ab5>@@",
+      "type_descriptor_rva": "0xe95900",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_aaee25ffb519749b3dc60f1899f77251>@@",
+      "type_descriptor_rva": "0xe95940",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_24b40d1e84f036e99b2c330b62d2e2d7>@@",
+      "type_descriptor_rva": "0xe959d0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_047037842c02a4bb9d23a164fe8023e9>@@",
+      "type_descriptor_rva": "0xe95d10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c331e706ee0aacc4c1f509022c080db7>@@",
+      "type_descriptor_rva": "0xe95d50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dfbfbac8f88ad21829f31c3f55212470>@@",
+      "type_descriptor_rva": "0xe95d90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a38aff55f05a108da0f24d943deddbcf>@@",
+      "type_descriptor_rva": "0xe95dd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f68d15118f57af248be41d09383ebec7>@@",
+      "type_descriptor_rva": "0xe95e10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7d9c358c2195c076cc84f0266d7d1fec>@@",
+      "type_descriptor_rva": "0xe95e50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ff1a0f49ec05ae354baceca249d62d4d>@@",
+      "type_descriptor_rva": "0xe95e90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a2685b97e4f83402bb856ca59e21785e>@@",
+      "type_descriptor_rva": "0xe95ed0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0f8b6d44dd30f0d5f51cc6ef894f45d9>@@",
+      "type_descriptor_rva": "0xe95f10",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_379e6928b9623b0e03ac85ebe787c96e>@@",
+      "type_descriptor_rva": "0xe95f50",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_134869457c03345e971f0963a9dd7293>@@",
+      "type_descriptor_rva": "0xe95f90",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7239df355d0648068cdc7c264ebeb3a0>@@",
+      "type_descriptor_rva": "0xe95fd0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a9aee009057517605cc48cabf69b36a9>@@",
+      "type_descriptor_rva": "0xe96010",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_eda1b9849228bb47b4e46d87df32c2c9>@@",
+      "type_descriptor_rva": "0xe96050",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_90945677c5cb567fe7a3dd01fb8ac121>@@",
+      "type_descriptor_rva": "0xe96090",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_05d1a9f6fad4ee5e2b94cc047c78cfc7>@@",
+      "type_descriptor_rva": "0xe96200",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_14c87d9e0c5492509efa24ecb05c3746>@@",
+      "type_descriptor_rva": "0xe96240",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ff9657574e78f4636526e631d40061ee>@@",
+      "type_descriptor_rva": "0xe96500",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_79de7dc231cd39582a2bfd40523742a5>@@",
+      "type_descriptor_rva": "0xe96540",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cb50b6fb089efa191ac7d4806c1e6b27>@@",
+      "type_descriptor_rva": "0xe96580",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ed3229e6cdf82ed2b40788ca4b795c45>@@",
+      "type_descriptor_rva": "0xe965c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bb2025a44d124795a55c1111da679bcc>@@",
+      "type_descriptor_rva": "0xe96600",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5a8391ed89f80e3e026b80205a2de189>@@",
+      "type_descriptor_rva": "0xe96640",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7523e08e357e03cc7944b7c976c2686b>@@",
+      "type_descriptor_rva": "0xe96680",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1d1912beaa73bdda8cdcc3531c9275a5>@@",
+      "type_descriptor_rva": "0xe966c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_bc8ffb7f6fb754c49944c4aeb09a1526>@@",
+      "type_descriptor_rva": "0xe96700",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_08b49be06393b48af6945ddbf3690c4c>@@",
+      "type_descriptor_rva": "0xe96740",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9d01019f664fd9c6b53e8e4a82ce88be>@@",
+      "type_descriptor_rva": "0xe96780",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_230c6b1744c3b50fad8f92558e1f6d89>@@",
+      "type_descriptor_rva": "0xe967c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d9fefd1f1cb09cb6afbc268b0783cd36>@@",
+      "type_descriptor_rva": "0xe96800",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6d4186abff5045831e94be073d32c691>@@",
+      "type_descriptor_rva": "0xe96840",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b392e1fe103f835ca50b50b4b5c1b220>@@",
+      "type_descriptor_rva": "0xe96880",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_71d796ef8b85718217f96bad7d3baec7>@@",
+      "type_descriptor_rva": "0xe968c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_223be90dd95b678ce37fe5c1b089af09>@@",
+      "type_descriptor_rva": "0xe96900",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_269dd22bea1f45ab6ac72efab24701b9>@@",
+      "type_descriptor_rva": "0xe96940",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e85f725ebd506982f6789d9d8b4fc692>@@",
+      "type_descriptor_rva": "0xe96980",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_67ac72193aa68aa46841bc255eadc836>@@",
+      "type_descriptor_rva": "0xe969c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_58f8fa3fdfcd02394b33d65d581582bb>@@",
+      "type_descriptor_rva": "0xe96a00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_48e128bbdc5789bb2391a077eb9b2994>@@",
+      "type_descriptor_rva": "0xe96a40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c0c387e21838c82960aaec5eed83c16a>@@",
+      "type_descriptor_rva": "0xe96a80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b5019ed2dbd3e3c21bab90ebfa6f15f1>@@",
+      "type_descriptor_rva": "0xe96ac0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_91a23c32f32d7a7f8f63ab74b0616720>@@",
+      "type_descriptor_rva": "0xe96b00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_72363ac7cb12802cddcbcaa10200501b>@@",
+      "type_descriptor_rva": "0xe96b40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9f232bbb130de6c0493b75208113f1c6>@@",
+      "type_descriptor_rva": "0xe96b80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fbdf994d13e5d9fc6fac8501dd590e13>@@",
+      "type_descriptor_rva": "0xe96bc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a06e4a871f002731324ca999c44e5037>@@",
+      "type_descriptor_rva": "0xe96c00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_436ad62279b8e9c5868a3d12d03f5658>@@",
+      "type_descriptor_rva": "0xe96c40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d54932d41e68eedb69d4bbdeffa65825>@@",
+      "type_descriptor_rva": "0xe96c80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c9b7972dc7f363f5de9ae6ad95374239>@@",
+      "type_descriptor_rva": "0xe96cc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_edc6cdba886ce773139d83192e5d1e84>@@",
+      "type_descriptor_rva": "0xe96d00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4d8a2a2a1974d76b52cf6b20a8d74ab5>@@",
+      "type_descriptor_rva": "0xe96d40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ca643849e9b7b53e197c98b06ab146bb>@@",
+      "type_descriptor_rva": "0xe96d80",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientKeyboardListener@input@oldscape@jag@@EAA_NW4TextCommand@46@@ZPEAV3456@AEBU?$_Ph@$00@2@@std@@",
+      "type_descriptor_rva": "0xe96dc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientKeyboardListener@input@oldscape@jag@@EAA_NH@ZPEAV3456@AEBU?$_Ph@$00@2@@std@@",
+      "type_descriptor_rva": "0xe96e60",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientMouseListener@input@oldscape@jag@@EAA_NMM@ZPEAV3456@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+      "type_descriptor_rva": "0xe96ef0",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientMouseListener@input@oldscape@jag@@EAA_NHMM@ZPEAV3456@HAEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+      "type_descriptor_rva": "0xe96f90",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientMouseListener@input@oldscape@jag@@EAA_NHHHH@ZPEAV3456@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@AEBU?$_Ph@$03@2@@std@@",
+      "type_descriptor_rva": "0xe97030",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientMouseListener@input@oldscape@jag@@EAA_NMMMM@ZPEAV3456@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@AEBU?$_Ph@$03@2@@std@@",
+      "type_descriptor_rva": "0xe970f0",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8ClientMouseListener@input@oldscape@jag@@EAA_N_KMM@ZPEAV3456@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@",
+      "type_descriptor_rva": "0xe971b0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6f8e33ebf91f86107ed16a17b682d259>@@",
+      "type_descriptor_rva": "0xe97260",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_284e81b503b2adee33926bac20691593>@@",
+      "type_descriptor_rva": "0xe972a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_88ef4572f8cd66b3a12caa6980f24764>@@",
+      "type_descriptor_rva": "0xe972e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0115789fa30c30b5af66386965079b93>@@",
+      "type_descriptor_rva": "0xe97320",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_ce4f7d048b3e0e6f816adc7d9765c390>@@",
+      "type_descriptor_rva": "0xe97360",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_a62b98943bbd59d0a5380cc7ed50fbbf>@@",
+      "type_descriptor_rva": "0xe973a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c81ec27cc3478bddf2d90d9fa7f6bf83>@@",
+      "type_descriptor_rva": "0xe973e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7723e812ee330e004dac1786d697d27a>@@",
+      "type_descriptor_rva": "0xe97420",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_772c8d0a59db3ab7f80ce7f4770ce5eb>@@",
+      "type_descriptor_rva": "0xe97460",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_429bebc0d00f5a203a1752f01a853af8>@@",
+      "type_descriptor_rva": "0xe974a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6e67396a9d9415187390730ec9cd7e63>@@",
+      "type_descriptor_rva": "0xe974e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_1242ec98b368d1b84d805f48b6c93ba6>@@",
+      "type_descriptor_rva": "0xe97520",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0e562e4acb166efef1110d2b91465b87>@@",
+      "type_descriptor_rva": "0xe97560",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c82f592edcec620401d2550e61d6e91c>@@",
+      "type_descriptor_rva": "0xe975a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d81b8938943f18966e9800b0cda92525>@@",
+      "type_descriptor_rva": "0xe975e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_842c02218164daf65d4a2ce91e04c178>@@",
+      "type_descriptor_rva": "0xe97620",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_175738be8ea221c3c8e24c0c7234d87b>@@",
+      "type_descriptor_rva": "0xe97660",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_76af121e5ef2e48c820c58ccb8f3fad0>@@",
+      "type_descriptor_rva": "0xe976a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4d071bd6c00d72d67304fed26f10070d>@@",
+      "type_descriptor_rva": "0xe976e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_39c6f83ad9976a46997291746db8ddb5>@@",
+      "type_descriptor_rva": "0xe97720",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b3415a4462f7272524c66f43ff448b71>@@",
+      "type_descriptor_rva": "0xe97760",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_254b3c1ac0c2a29e36bd6e852c6182bf>@@",
+      "type_descriptor_rva": "0xe977a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_4a8e15051ebfb52286544ac64d0ea744>@@",
+      "type_descriptor_rva": "0xe977e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_007f6fafbac07e51e295954693c3b00b>@@",
+      "type_descriptor_rva": "0xe97820",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_db86aa8226074ca112d2079e8357ad55>@@",
+      "type_descriptor_rva": "0xe97860",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_044a26ab1b0bdb3483b3a6c2bf5b2d66>@@",
+      "type_descriptor_rva": "0xe978a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_88cd8a2f53e5f34c8597954904c37a75>@@",
+      "type_descriptor_rva": "0xe978e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b03dca892959221aee9a8157890247d8>@@",
+      "type_descriptor_rva": "0xe97920",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_75dbd8c6c05e56ffc1e2c8ac05c7003c>@@",
+      "type_descriptor_rva": "0xe97960",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_167d5c1aebd294af6076c69d86e690cd>@@",
+      "type_descriptor_rva": "0xe979a0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_99b33e838b97894d76a0360014020b09>@@",
+      "type_descriptor_rva": "0xe979e0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dcfbb352ee047c4145eba7971387d5cd>@@",
+      "type_descriptor_rva": "0xe97a20",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_939a1dc5e566e628fbae8aa6f3cf8887>@@",
+      "type_descriptor_rva": "0xe97a60",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d0d5fbe719f1fb553693e935bcf99f2f>@@",
+      "type_descriptor_rva": "0xe97aa0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b15266578784aeb52d6a21480cf39ff9>@@",
+      "type_descriptor_rva": "0xe97ae0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_d83ebe70e91f4bcc7b64c52b807a32d2>@@",
+      "type_descriptor_rva": "0xe97b20",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_02923f10ad229da09aa7c8b2c627f52a>@@",
+      "type_descriptor_rva": "0xe97b60",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7cacdbe772abea0af87f470d557d5263>@@",
+      "type_descriptor_rva": "0xe97ba0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_af9126a867478998eb278aa185744fbb>@@",
+      "type_descriptor_rva": "0xe97be0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_cb4892f7233ccee32044ffcc82d806a4>@@",
+      "type_descriptor_rva": "0xe97c20",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_0be85a51ad7e3853fb7d520fd6f677a5>@@",
+      "type_descriptor_rva": "0xe97c60",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3af932e05ff537adcdfb46ae927ebfe3>@@",
+      "type_descriptor_rva": "0xe97ca0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_81c141eb63bd94c261003b8721d82ea4>@@",
+      "type_descriptor_rva": "0xe97ce0",
+      "locators": []
+    },
+    {
+      "name": ".?AV?$_Binder@U_Unforced@std@@P8GraphicsApp@jag@@EAA_NXZPEAV34@@std@@",
+      "type_descriptor_rva": "0xe97d20",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6df2ce24140aa41ab41b6fcd98cb1499>@@",
+      "type_descriptor_rva": "0xe97d80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_8734b0bd1f6cd67323adce1a6ae8a6c2>@@",
+      "type_descriptor_rva": "0xe97dc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_31ab188c50f3f03d7aed340ea12af5eb>@@",
+      "type_descriptor_rva": "0xe97e00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_15bbdc31eb938aad2174a514c23e4dfb>@@",
+      "type_descriptor_rva": "0xe97e40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_edecfbce6b857c350a3a88f55d7ecac5>@@",
+      "type_descriptor_rva": "0xe97e80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_6688d842ce972fa6bf9864b485aaf27e>@@",
+      "type_descriptor_rva": "0xe97ec0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_c3804d274d9d0d0855c6a752179884e4>@@",
+      "type_descriptor_rva": "0xe97f00",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_dbfaf341b76ca83eb39d0b35c7dc1151>@@",
+      "type_descriptor_rva": "0xe97f40",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_e81488f7ef3573ebb5eaa34f62b9d2fa>@@",
+      "type_descriptor_rva": "0xe97f80",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_891f7cdaa1c1f146e7d19785f88d40a6>@@",
+      "type_descriptor_rva": "0xe97fc0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3b98a24757beb5cceac1375954d17d13>@@",
+      "type_descriptor_rva": "0xe98000",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_48f005e442da6fabeb7d77570412e869>@@",
+      "type_descriptor_rva": "0xe98040",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_f7282d694a5a58fc6a642d04620a975b>@@",
+      "type_descriptor_rva": "0xe98080",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_fff8dff9fae9a588d36a058f6634cf9a>@@",
+      "type_descriptor_rva": "0xe980c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_668f0b9a8cdca65f6bdaf5eb36195b20>@@",
+      "type_descriptor_rva": "0xe98100",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_adcf947ad5d43ee3e869e01541f00eef>@@",
+      "type_descriptor_rva": "0xe98140",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_75a26b8a49761f7beb0a680a27199fa3>@@",
+      "type_descriptor_rva": "0xe98180",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_5ba15185a2cd49948759c8fa2be9e8fc>@@",
+      "type_descriptor_rva": "0xe981c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_93d10b390faf03a1408d173555de750b>@@",
+      "type_descriptor_rva": "0xe98200",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_51b526fab1c5bf9c5237fd13827c9c6a>@@",
+      "type_descriptor_rva": "0xe98240",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_197bc5e09d045e7547085529eb224e62>@@",
+      "type_descriptor_rva": "0xe98280",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_3002a474982837e9916e47c4b3c2e452>@@",
+      "type_descriptor_rva": "0xe982c0",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_9519441adcdeb17b9b74143714214e98>@@",
+      "type_descriptor_rva": "0xe98300",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_29d24d4bd63afd3cc6b4d1186f177d4f>@@",
+      "type_descriptor_rva": "0xe98340",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_7016bd1de8a005886a197394a71971d1>@@",
+      "type_descriptor_rva": "0xe98380",
+      "locators": []
+    },
+    {
+      "name": ".?AV<lambda_b92b2395056945420c39952c49f14b35>@@",
+      "type_descriptor_rva": "0xe983c0",
+      "locators": []
+    },
+    {
+      "name": ".?AVtype_info@@",
+      "type_descriptor_rva": "0xe98450",
+      "locators": [
+        {
+          "rva": "0xc517a8",
+          "object_offset": 0,
+          "constructor_offset": 0,
+          "hierarchy_rva": "0xc517d0"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    "Structure-field offset recovery",
+    "Read-only runtime invariants on new build",
+    "Explicit reviewed build-profile promotion"
+  ],
+  "policy": "Offline candidates only. Unique matches and RTTI do not establish semantic compatibility."
+}

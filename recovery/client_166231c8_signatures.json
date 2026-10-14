@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "baseline_sha256": "166231c8f6bd05c7542b8f0d35eb64b0aad701a87ba6ba41f60c4706de946944",
+  "architecture": "x86_64",
+  "policy": "Unique signature matches are candidates only. Structure displacements remain literal. New hashes require semantic/layout validation before memory access or actions.",
+  "signatures": [
+    {
+      "name": "ClientState_getStatEffectiveLevel",
+      "pattern": "83 FA 19 7F ?? 48 8B 0D ?? ?? ?? ?? 83 B9 24 3F 41 00 00 7E ?? 48 63 C2 8B 84 81 50 33 00 00",
+      "baseline_rva": 1005584,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 5,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 15305752
+        }
+      ]
+    },
+    {
+      "name": "ClientState_getStatXP",
+      "pattern": "83 FA 19 7F ?? 48 8B 0D ?? ?? ?? ?? 83 B9 24 3F 41 00 00 7E ?? 48 63 C2 8B 84 81 18 34 00 00",
+      "baseline_rva": 1005632,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 5,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 15305752
+        }
+      ]
+    },
+    {
+      "name": "ClientState_getStatBaseLevel",
+      "pattern": "83 FA 19 7F ?? 48 8B 0D ?? ?? ?? ?? 83 B9 24 3F 41 00 00 7E ?? 48 63 C2 8B 84 81 B4 33 00 00",
+      "baseline_rva": 1005680,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 5,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 15305752
+        }
+      ]
+    },
+    {
+      "name": "Inventory_GetItemId",
+      "pattern": "4C 8B 15 ?? ?? ?? ?? 4C 63 CA 33 D2 45 8B C2 48 63 C1 49 F7 F0 8B C2 48 8B 15 ?? ?? ?? ?? 48 8B 04 C2 48 85 C0 74 ?? 3B 08 74 ?? 48 8B 40 38 48 85 C0 75 ?? B8 FF FF FF FF",
+      "baseline_rva": 200048,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 0,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 22346432
+        },
+        {
+          "instruction_offset": 23,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 22346424
+        }
+      ]
+    },
+    {
+      "name": "Inventory_GetQuantity",
+      "pattern": "4C 8B 15 ?? ?? ?? ?? 4C 63 CA 33 D2 45 8B C2 48 63 C1 49 F7 F0 8B C2 48 8B 15 ?? ?? ?? ?? 48 8B 04 C2 48 85 C0 74 ?? 3B 08 74 ?? 48 8B 40 38 48 85 C0 75 ?? 33 C0",
+      "baseline_rva": 200144,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 0,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 22346432
+        },
+        {
+          "instruction_offset": 23,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 22346424
+        }
+      ]
+    },
+    {
+      "name": "Player_SetActionAnimation",
+      "pattern": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 20 57 41 54 41 55 41 56 41 57 48 83 EC 40 33 ED",
+      "baseline_rva": 463984,
+      "baseline_match_count": 1,
+      "rip_references": []
+    },
+    {
+      "name": "LocType_GetOrLoadById",
+      "pattern": "40 56 57 48 81 EC A8 00 00 00 44 8B 05 ?? ?? ?? ?? 33 D2 48 63 F1 48 8B C6 48 8B FE 49 F7 F0 4C 8B 05 ?? ?? ?? ?? 8B C2 49 8B 14 C0 48 85 D2 74 ?? 48 3B 3A 74 ?? 48 8B 52 40 48 85 D2 75 ?? 48 8D 15 ?? ?? ?? ?? 48 83 7A 08 00 74 ?? 48 8B C2 48 81 C4 A8 00 00 00 5F 5E C3 48 8B 05 ?? ?? ?? ?? 49 3B 14 C0 74 ?? 48 8B 4A 30 48 8B 42 38 48 89 41 30 48 8B 4A 38 48 8B 42 30 48 89 41 28 48 8B 05 ?? ?? ?? ?? 48 89 42 28 48 83 C2 08 48 8B 0D ?? ?? ?? ?? 48 8B 41 30 48 89 50 28 48 8B 41 30 48 89 42 30 48 89 51 30 48 89 4A 28 EB ?? 48 8B 0D ?? ?? ?? ?? 48 8D 54 24 30 0F 57 C0 48 89 9C 24 A0 00 00 00 44 8B CE 48 89 AC 24 98 00 00 00",
+      "baseline_rva": 6213760,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 10,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 13773368
+        },
+        {
+          "instruction_offset": 31,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 13773360
+        },
+        {
+          "instruction_offset": 63,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 35995848
+        },
+        {
+          "instruction_offset": 90,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 13773368
+        },
+        {
+          "instruction_offset": 127,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 14101264
+        },
+        {
+          "instruction_offset": 142,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 14101248
+        },
+        {
+          "instruction_offset": 175,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 15479056
+        }
+      ]
+    },
+    {
+      "name": "SceneTile_FindLocType",
+      "pattern": "48 89 5C 24 10 56 48 83 EC 20 41 8B F1 44 8B 4C 24 50 45 8B D8",
+      "baseline_rva": 6958256,
+      "baseline_match_count": 1,
+      "rip_references": []
+    },
+    {
+      "name": "Lua_RegisterLocTypeBindings",
+      "pattern": "48 89 5C 24 10 48 89 7C 24 18 48 89 4C 24 08 55 48 8B EC 48 83 EC 70 48 8D 5A 20 48 8B CB 4C 8D 0D ?? ?? ?? ?? 4C 8D 05 ?? ?? ?? ?? 48 8D 55 C0 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10 48 8D 55 10 48 8D 45 C0 48 89 45 D0 48 8D 4D D0 48 8D 05 ?? ?? ?? ?? 48 89 45 D8 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10 48 8D 55 10 48 8D 45 C0 48 89 45 D0 48 8D 4D D0 48 8D 05 ?? ?? ?? ?? 48 89 45 D8 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10 48 8D 55 10 48 8D 45 C0 48 89 45 D0 48 8D 4D D0 48 8D 05 ?? ?? ?? ?? 48 89 45 D8 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10 48 8D 55 10 48 8D 45 C0 48 89 45 D0 48 8D 4D D0 48 8D 05 ?? ?? ?? ?? 48 89 45 D8 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10 48 8D 55 10 48 8D 45 C0 48 89 45 D0 48 8D 4D D0 48 8D 05 ?? ?? ?? ?? 48 89 45 D8 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 45 10",
+      "baseline_rva": 1001664,
+      "baseline_match_count": 1,
+      "rip_references": [
+        {
+          "instruction_offset": 30,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 22347177
+        },
+        {
+          "instruction_offset": 37,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173728
+        },
+        {
+          "instruction_offset": 53,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2294784
+        },
+        {
+          "instruction_offset": 80,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173768
+        },
+        {
+          "instruction_offset": 96,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2295104
+        },
+        {
+          "instruction_offset": 123,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173752
+        },
+        {
+          "instruction_offset": 139,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2295264
+        },
+        {
+          "instruction_offset": 166,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173800
+        },
+        {
+          "instruction_offset": 182,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2295552
+        },
+        {
+          "instruction_offset": 209,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173784
+        },
+        {
+          "instruction_offset": 225,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2295408
+        },
+        {
+          "instruction_offset": 252,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 12173832
+        },
+        {
+          "instruction_offset": 268,
+          "displacement_offset": 3,
+          "instruction_size": 7,
+          "target_rva": 2296192
+        }
+      ]
+    },
+    {
+      "name": "Menu_BuildLocEntries",
+      "pattern": "48 89 5C 24 10 48 89 74 24 18 55 41 54 41 55 41 56 41 57 48 8D AC 24 90 F4 FF FF",
+      "baseline_rva": 3684048,
+      "baseline_match_count": 1,
+      "rip_references": []
+    },
+    {
+      "name": "Scene_ProjectWorldPoint",
+      "pattern": "48 83 EC 58 F3 0F 10 91 20 04 00 00 0F 57 C9 F3 0F 2A 8C 24 80 00 00 00",
+      "baseline_rva": 6989760,
+      "baseline_match_count": 1,
+      "rip_references": []
+    },
+    {
+      "name": "LuaIfType_retrieveIfGroup",
+      "pattern": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 A9 48 81 EC 90 00 00 00",
+      "baseline_rva": 2261680,
+      "baseline_match_count": 1,
+      "rip_references": []
+    },
+    {
+      "name": "MenuInput_ActivateOrderedFirstAction",
+      "pattern": "40 55 57 48 81 EC C8 01 00 00 4C 8B 41 08 48 8B F9 49 8B C8",
+      "baseline_rva": 3672640,
+      "baseline_match_count": 1,
+      "rip_references": []
+    }
+  ]
+}

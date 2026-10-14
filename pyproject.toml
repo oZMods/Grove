@@ -1,0 +1,9 @@
+[project]
+name = "grove-bot-framework"
+version = "0.3.0"
+description = "Educational native-client state access, verified input, and reusable bot framework"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+recovery = ["pefile>=2023.2.7", "capstone>=5,<6"]
